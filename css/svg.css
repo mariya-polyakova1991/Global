@@ -180,6 +180,12 @@
   top: 18%;
   right: 5%;
 }
+.block25 {
+  position: absolute;
+  top: 77%;
+  right: 6%;
+  width: 7rem;
+}
 img[class^="block"] {
   object-fit: contain;
 }
