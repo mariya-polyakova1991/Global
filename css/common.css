@@ -31,6 +31,9 @@ button,
 a {
   cursor: pointer;
 }
+button {
+  border-radius: 10px;
+}
 @font-face {
   font-family: Ubuntu;
   src: url(fonts/Ubuntu);
@@ -45,6 +48,7 @@ body {
 }
 img {
   max-width: 100%;
+  border-radius: 20px;
 }
 a {
   text-decoration: none;

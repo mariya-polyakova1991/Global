@@ -46,6 +46,9 @@
   background: linear-gradient(90deg, #005092 0%, #00849c 68.23%);
   box-shadow: 0px 4px 10px rgba(0, 80, 146, 0.25);
 }
+.blue__button a {
+  color: white;
+}
 .blue__button:hover {
   color: #005092;
   background: white;
@@ -99,8 +102,8 @@
   flex-direction: column;
 }
 .description__img {
-  background: url(../Images/6408.png) no-repeat right;
-  background-size: cover;
+  background: url(../Images/IMG_91081.jpg) no-repeat right;
+  background-size: contain;
 }
 .blueColor {
   color: #005092;
@@ -143,7 +146,7 @@
 }
 .description__form {
   background-color: #c0e3ff;
-  padding: 20px 78px;
+  padding: 20px 78px 50px;
   margin: 45px 0 95px;
 }
 .description__check {
@@ -156,7 +159,7 @@ fieldset {
 }
 .description__form__input {
   width: 26.75%;
-
+  border-radius: 10px;
   padding: 10px 20px;
   background: #ffffff;
   border: 1px solid #d7d7d7;
@@ -259,12 +262,11 @@ fieldset {
 }
 
 .benefits__imgs {
-    background: url(../images/png/Polygon7.png) no-repeat 50% 50%;
-    padding: 37px;
-    text-align: center;
-    font-size: 2rem;
-    color: #00849c;
-
+  background: url(../images/png/Polygon7.png) no-repeat 50% 50%;
+  padding: 37px;
+  text-align: center;
+  font-size: 2rem;
+  color: #00849c;
 }
 
 .form__bottom {
@@ -276,9 +278,7 @@ fieldset {
   background: url(../Images/glenn-carstens.png) no-repeat;
   background-size: cover;
 }
-.description__form__legend {
-  margin: 50px 0 25px;
-}
+
 .links {
   background: #333333;
   color: white;
@@ -395,4 +395,23 @@ fieldset {
 }
 .container__backgroung {
   background-color: #edfcff;
+}
+.fa-hand-point-down {
+  font-size: 3rem;
+  margin: 20px;
+  color: #005092;
+}
+@keyframes lift-up {
+  from {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(40px);
+  }
+}
+.arrow {
+  animation-name: lift-up;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }

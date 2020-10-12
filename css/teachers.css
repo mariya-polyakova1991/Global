@@ -1,3 +1,20 @@
 .team {
   background: url("../Images/svg/plashka.svg");
 }
+.team__imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team__img {
+  width: 25%;
+  margin: 20px;
+}
+.team__img__name {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 10px;
+}
+.speech__description p {
+  text-align: center;
+}
