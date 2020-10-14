@@ -316,6 +316,9 @@
   .team__img {
     width: 40%;
   }
+  .speech__video video {
+    width: 80%;
+}s
 }
 
 @media (max-width: 550px) {
@@ -370,7 +373,7 @@
     top: 151%;
   }
   .block24 {
-    top: 24%;
+    top: 26%;
   }
   .team__img {
     width: 80%;
