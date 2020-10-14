@@ -102,7 +102,7 @@
   flex-direction: column;
 }
 .description__img {
-  background: url(../Images/IMG_91081-min.jpg) no-repeat right;
+  background: url(../images/IMG_91081-min.jpg) no-repeat right;
   background-size: contain;
 }
 .blueColor {
@@ -164,6 +164,7 @@ fieldset {
   background: #ffffff;
   border: 1px solid #d7d7d7;
   box-sizing: border-box;
+  margin-right: 10px;
 }
 .description__form__button {
   width: 26.75%;

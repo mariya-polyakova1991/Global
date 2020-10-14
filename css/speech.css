@@ -18,10 +18,15 @@
 }
 .speech__img {
   margin: 0 auto 20px;
+  width: 40%;
+  text-align: center;
+}
+.speech__video {
+  margin: 0 auto 20px;
   width: 100%;
   text-align: center;
 }
-.speech__img video {
+.speech__video video {
   width: 50%;
 }
 .technique__flex {

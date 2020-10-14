@@ -90,13 +90,10 @@
               <div class="life__line"></div>
 
               <div class="technique__flex">
-                <div class="speech__img">
-                  <video
-                    src="video/GlobalSchool.mp4"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; "
-                    allowfullscreen
-                  ></video>
+                <div class="speech__video">
+                  <video controls="controls">
+                    <source src="video/GlobalSchool1.mp4" />
+                  </video>
                 </div>
                 <div class="speech__description">
                   <p>
@@ -135,7 +132,7 @@
           <img class="block13" src="images/png/Polygon14.png" alt="png" />
 
           <div class="container">
-            <form id="call" action="#" method="post">
+            <form id="call" action="stavropol@school-global.ru" method="post">
               <fieldset>
                 <legend class="description__form__legend">
                   Остались вопросы? Мы свяжемся в Вами в удобное для Вас время
@@ -156,6 +153,18 @@
                     placeholder="Ваш телефон"
                     required
                   />
+                  <select name="branch" class="description__form__input">
+                    <option>Филиал</option>
+                    <option value="Tukhachevsky">
+                      г. Ставрополь, ул. Тухачевского 12В
+                    </option>
+                    <option value="Lenin">
+                      г.Михайловск, ул. Ленина 161/5
+                    </option>
+                    <option value="Ishkova">
+                      г.Михайловск, ул. Ишкова 123
+                    </option>
+                  </select>
                   <button class="blue__button description__form__button">
                     Записаться
                   </button>
@@ -259,7 +268,11 @@
             <div class="links__phone">
               <div class="links__left__i">
                 <a href="#"> <i class="fab fa-whatsapp"></i></a>
-                <a href="#"> <i class="fab fa-instagram"></i></a>
+                <a
+                  href="https://instagram.com/global_school_?igshid=kvl0y2u2j7ok"
+                >
+                  <i class="fab fa-instagram"></i
+                ></a>
                 <a href="#"> <i class="fab fa-vk"></i></a>
                 <a href="#"> <i class="fab fa-telegram-plane"></i></a>
                 <a href="#"> <i class="fab fa-facebook-f"></i></a>
