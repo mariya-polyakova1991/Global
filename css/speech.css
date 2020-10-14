@@ -17,14 +17,14 @@
   margin: 0 auto;
 }
 .speech__img {
-  margin: 0 10px;
-  width: 29%;
+  margin: 0 auto 20px;
+  width: 100%;
   text-align: center;
 }
-
+.speech__img video {
+  width: 50%;
+}
 .technique__flex {
-  flex-direction: row-reverse;
-  display: flex;
   margin: 0 auto 10%;
 
   max-width: 1300px;

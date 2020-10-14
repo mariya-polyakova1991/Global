@@ -102,7 +102,7 @@
   flex-direction: column;
 }
 .description__img {
-  background: url(../Images/IMG_91081.jpg) no-repeat right;
+  background: url(../Images/IMG_91081-min.jpg) no-repeat right;
   background-size: contain;
 }
 .blueColor {
@@ -414,4 +414,8 @@ fieldset {
   animation-name: lift-up;
   animation-duration: 2s;
   animation-iteration-count: infinite;
+}
+.speech__img iframe {
+  height: 300px;
+  width: 500px;
 }
