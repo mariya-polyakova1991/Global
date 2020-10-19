@@ -34,3 +34,7 @@
 .img_wrapper.loaded img {
   opacity: 1;
 }
+.team__img__name-min {
+  font-size: 0.75rem;
+  text-align: center;
+}

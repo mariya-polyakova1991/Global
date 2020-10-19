@@ -102,8 +102,8 @@
   flex-direction: column;
 }
 .description__img {
-  background: url(../images/IMG_91081-min.jpg) no-repeat right;
-  background-size: contain;
+  background: url(../images/IMG_0058.jpg) no-repeat right;
+  background-size: cover;
 }
 .blueColor {
   color: #005092;
@@ -115,9 +115,10 @@
 .description__h3 {
   padding: 25px 0;
   font-size: 1.5rem;
+  width: 60%;
 }
 .description__p {
-  width: 70%;
+  width: 50%;
   font-size: 1.14rem;
   padding: 25px 0 35px;
 }
@@ -307,7 +308,7 @@ fieldset {
   color: white;
 }
 .links__center__ul {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 .links__right__location {
   padding: 15px 0;

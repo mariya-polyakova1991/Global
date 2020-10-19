@@ -76,6 +76,11 @@
   .block25 {
     display: none;
   }
+  .description__p {
+    width: 80%;}
+    .description__h3 {
+      width: 90%;
+  }
 }
 @media (max-width: 890px) {
   .links__flex {
@@ -293,6 +298,9 @@
   }
   .block23 {
     top: 93%;
+  }
+  .technique__img {
+    width: 80%;
   }
 }
 @media (max-width: 649px) {
