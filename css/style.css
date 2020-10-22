@@ -15,6 +15,7 @@
   width: 85%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .menu__li {
   text-align: center;
@@ -40,7 +41,7 @@
   margin-left: 10px;
 }
 .blue__button {
-  padding: 10px 5px;
+  padding: 5px 5px;
   margin-left: 10px;
   color: white;
   background: linear-gradient(90deg, #005092 0%, #00849c 68.23%);
@@ -425,6 +426,19 @@ fieldset {
   width: 500px;
 }
 .top__instagram {
-  background: linear-gradient(90deg, #005092 0%, #00849c 68.23%);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
   margin: 10px 5px 10px !important;
+  border: 0px;
 }

@@ -315,8 +315,8 @@
 @media (max-width: 649px) {
   .top__instagram {
     position: absolute;
-    top: 25px;
-    right: 20%;
+    top: 19px;
+    right: 12%;
   }
   .header .container__top {
     flex-direction: column;
@@ -432,6 +432,11 @@
   }
   .block11 {
     top: -6%;
+  }
+  .top__instagram {
+    position: absolute;
+    top: 19px;
+    right: 16%;
   }
 }
 @media (max-width: 332px) {
