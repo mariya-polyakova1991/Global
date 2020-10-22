@@ -60,6 +60,7 @@
   background: linear-gradient(90deg, #005092 0%, #00849c 68.23%);
   box-shadow: 0px 4px 10px rgba(0, 80, 146, 0.25);
 }
+
 .sidenav {
   width: 0;
   position: absolute;
@@ -422,4 +423,8 @@ fieldset {
 .speech__img iframe {
   height: 300px;
   width: 500px;
+}
+.top__instagram {
+  background: linear-gradient(90deg, #005092 0%, #00849c 68.23%);
+  margin: 10px 5px 10px !important;
 }

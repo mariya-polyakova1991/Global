@@ -38,3 +38,6 @@
   font-size: 0.75rem;
   text-align: center;
 }
+.font__medium {
+  font-size: medium;
+}
