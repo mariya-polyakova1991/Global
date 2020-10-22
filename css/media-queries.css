@@ -328,7 +328,7 @@
     margin-right: 5%;
   }
   .sidenav {
-    top: 140px;
+    top: 135px;
   }
   .container__top-flex {
     width: 100%;
@@ -444,6 +444,6 @@
 }
 @media (max-width: 332px) {
   .sidenav {
-    top: 158px;
+    top: 148px;
   }
 }
