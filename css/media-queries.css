@@ -313,6 +313,9 @@
   }
 }
 @media (max-width: 649px) {
+  .block24 {
+    top: 25%;
+  }
   .top__instagram {
     position: absolute;
     top: 19px;
@@ -325,7 +328,7 @@
     margin-right: 5%;
   }
   .sidenav {
-    top: 153px;
+    top: 140px;
   }
   .container__top-flex {
     width: 100%;

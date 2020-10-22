@@ -440,5 +440,9 @@ fieldset {
   -webkit-text-fill-color: transparent;
   font-size: 40px;
   margin: 10px 5px 10px !important;
-  border: 0px;
+  border: none;
+}
+.top__instagram:focus,
+.top__instagram:hover {
+  border: none;
 }
