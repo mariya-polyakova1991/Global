@@ -336,7 +336,8 @@
   .container__top-flex {
     width: 100%;
   }
-  .blue__button,
+
+  header .blue__button,
   .white__button {
     margin-top: -24px;
     margin-bottom: 20px;
