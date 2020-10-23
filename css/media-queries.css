@@ -338,6 +338,10 @@
     margin-top: -24px;
     margin-bottom: 20px;
   }
+  .white__button {
+    margin-left: 0;
+  }
+
   .team__img {
     width: 40%;
   }

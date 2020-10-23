@@ -446,3 +446,12 @@ fieldset {
 .top__instagram:hover {
   border: none;
 }
+.links__center__p-phone,
+.links__left__p-phone {
+  margin-top: 10px;
+  text-align: center;
+}
+.fa-times:hover,
+.fa-times:focus {
+  background-color: transparent;
+}
