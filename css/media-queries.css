@@ -327,6 +327,9 @@
   .header .container__top {
     margin-right: 5%;
   }
+  .header a {
+    padding-left: 0px;
+  }
   .sidenav {
     top: 136px;
   }

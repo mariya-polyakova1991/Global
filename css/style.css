@@ -452,6 +452,7 @@ fieldset {
   text-align: center;
 }
 .fa-times:hover,
-.fa-times:focus {
+.fa-times:focus,
+.menu-open:hover .menu-open:focus {
   background-color: transparent;
 }
