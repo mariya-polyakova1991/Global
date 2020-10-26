@@ -456,3 +456,9 @@ fieldset {
 .menu-open:hover .menu-open:focus {
   background-color: transparent;
 }
+.menu-open,
+.menu-open:focus,
+.menu-open:hover {
+  outline: none;
+  background: none;
+}

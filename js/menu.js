@@ -6,7 +6,7 @@ var faTimes = document.getElementsByClassName("fa-times");
 
 openBtn.addEventListener("click", function () {
   document.getElementById("mySidenav").style.width = "100%";
-  // blackout.classList.add("blackout");
+  blackout.classList.add("blackout");
   openBtn.classList.add("close");
   closeBtn.classList.remove("close");
 });

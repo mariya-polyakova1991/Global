@@ -1,3 +1,27 @@
+.img__wrapper {
+  overflow: hidden;
+  height: 80%;
+}
+
+.img__wrapper img {
+  opacity: 0;
+
+  -webkit-transition: opacity 150ms;
+  -moz-transition: opacity 150ms;
+  -ms-transition: opacity 150ms;
+  transition: opacity 150ms;
+}
+.img__wrapper.loaded img {
+  opacity: 1;
+}
+.team__img__name-min {
+  font-size: 0.75rem;
+  text-align: center;
+}
+.font__medium {
+  font-size: 1.3rem;
+}
+
 .team__imgs {
   display: flex;
   flex-wrap: wrap;
@@ -14,30 +38,4 @@
 }
 .speech__description p {
   text-align: center;
-}
-.img_wrapper {
-  overflow: hidden;
-  height: 80%;
-}
-
-.img_wrapper img {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  opacity: 0;
-
-  -webkit-transition: opacity 150ms;
-  -moz-transition: opacity 150ms;
-  -ms-transition: opacity 150ms;
-  transition: opacity 150ms;
-}
-.img_wrapper.loaded img {
-  opacity: 1;
-}
-.team__img__name-min {
-  font-size: 0.75rem;
-  text-align: center;
-}
-.font__medium {
-  font-size: 1.3rem;
 }
